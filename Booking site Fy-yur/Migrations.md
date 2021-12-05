@@ -8,8 +8,8 @@
 |             without migrations          |           with migrations         |
 |-----------------------------------------|-----------------------------------|
 |Creating and recreating the same tables  |create migration script that solves|           |in database even for minor changes.      | differences between the old & new versions|
-|Lose exisitng data in older tables       |Gives Fine-grain control to change 
-|                                         |existing tables                    |
+|Lose exisitng data in older tables       |Gives Fine-grain control to change existing tables|
+|                                         | Auto-detects changes from the old & new version of the SQLALchemy|
 ### What migrations could do?
 Stack migrations together to:
 + upgrade database schema
