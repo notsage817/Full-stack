@@ -4,6 +4,7 @@
   + Quickly roll back changes
   + Test changes before we make them
 + Migrations could offer version countrol on database schema
+
 |             without migrations          |           with migrations         |
 |-----------------------------------------|-----------------------------------|
 |Creating and recreating the same tables  |create migration script that solves|           |in database even for minor changes.      | differences between the old & new versions|
