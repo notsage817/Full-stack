@@ -14,3 +14,5 @@
 Stack migrations together to:
 + upgrade database schema
 + roll back database schema to a former version by reverting migrations applied
+## Flask-Migrate
+Flask-Migrate is an extension that handles SQLALchemy database migrations for flask applications using Alembic.
