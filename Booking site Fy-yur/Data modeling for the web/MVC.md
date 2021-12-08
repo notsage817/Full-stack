@@ -12,8 +12,8 @@
 4. On the controller: take the newly created to-do item, and decide how to update the view with it.
 ##### Getting user data from a view to a controller
 + URL query parameters
-  + 
+  + `request.args.get('field1')`get values from listed pairs
 + Forms
-  `request.form.get('<name>')` reads the value from a form input control by the <name> attribute on the input HTML element.
+  + `request.form.get('<name>')` reads the value from a form input control by the <name> attribute on the input HTML element.
 + JSON
-  `request.data` retrieves JSON as a string.
+  + `request.data` retrieves JSON as a string.
