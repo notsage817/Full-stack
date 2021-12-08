@@ -33,6 +33,11 @@ A tool that is used to interact with database and use its results in a specific 
 The most popular open-source library for working with relational databases from python, aka Object-Relational Mapping library that provides an interface for using object oriented programming to interact with database.
 
 **SQLAlchemy generates SQL statements and DBAPI sends them to the database**
+
 ![image](https://user-images.githubusercontent.com/59595363/145167615-82120a89-c650-46a3-bbf2-bc46dc0b0aaf.png)
 + Dialect is used to communicate with various types of DBAPI implementations and databases.
 + A connection pool is a standard technique used to maintain long running connections in memory for efficient re-use, as well as to provide management for the total number of connections an application might use simultaneously.
++ The Engine is the starting point for any SQLAlchemy application. It’s “home base” for the actual database and its DBAPI, delivered to the SQLAlchemy application through a connection pool and a Dialect, which describes how to talk to a specific kind of database/DBAPI combination.
++ SQL expressions let you compose SQL statements by building Python objects
++ ORM lets you compose SQL expressions by mapping python classes of objects to tables in the database
+
