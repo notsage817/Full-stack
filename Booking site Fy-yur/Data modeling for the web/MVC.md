@@ -17,3 +17,8 @@
   + `request.form.get('<name>')` reads the value from a form input control by the <name> attribute on the input HTML element.
 + JSON
   + `request.data` retrieves JSON as a string.
+##### Using AJAX to send data to flask
+
++ XMLHttpRequest
++ Fetch
+  
