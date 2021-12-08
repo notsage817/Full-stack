@@ -28,3 +28,11 @@ A tool that is used to interact with database and use its results in a specific 
 + Provides a standard interface for one programming language to talk to a relational database server
 + Low level library for writing SQL statements that connect to a database
 + Known as database adapters
+
+### SQLAlchemy
+The most popular open-source library for working with relational databases from python, aka Object-Relational Mapping library that provides an interface for using object oriented programming to interact with database.
+
+**SQLAlchemy generates SQL statements and DBAPI sends them to the database**
+![image](https://user-images.githubusercontent.com/59595363/145167615-82120a89-c650-46a3-bbf2-bc46dc0b0aaf.png)
++ Dialect is used to communicate with various types of DBAPI implementations and databases.
++ A connection pool is a standard technique used to maintain long running connections in memory for efficient re-use, as well as to provide management for the total number of connections an application might use simultaneously.
