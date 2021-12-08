@@ -9,6 +9,7 @@ TCP/IP is a suite of communication protocols that is used to connect devices and
 + Port number: specify where on the computer a particular connection should be made
   + port 80:commonly used for HTTP requests
   + port 5432:used by most database systems, default for Postgres
+
 TCP/IP is **connection-based**, a connection is established before any data transmission begins
 + Deliveries over the connection are error-checked
 + A session starts when connecting, many transactions occur during a session
